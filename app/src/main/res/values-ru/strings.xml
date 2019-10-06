@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="trips">Поиск</string>
+    <string name="listings">Объявления</string>
+    <string name="profile">Профиль</string>
+    <string name="bookmarks">Закладки</string>
+    <string name="inbox">Входящие</string>
+
+
+    <string name="hint_try_city" formatted="true">Введите название города</string>
+    <string name="money_sign">$</string>
+    <string name="perday">за день</string>
+    <string name="money_per_day">%d$ за день</string>
+    <string name="point">•</string>
+
+    <string name="houseInfo" formatted="false">%d кроватей</string>
+    <string name="date">Даты</string>
+    <string name="filters">Фильтры</string>
+
+    <string name="add_your_lease">Добавь объявление</string>
+
+    <string name="house_name">Название жилище</string>
+    <string name="house_address">Адрес</string>
+    <string name="orderType">Тип жилище(Комната, Квартира, Дом)</string>
+    <string name="guestCount">Количество гостей</string>
+    <string name="pricePerDay">Цена за день ($)</string>
+    <string name="countryCode">Код страны</string>
+    <string name="country">Страна</string>
+
+    <string name="add_information_about_house">Заполните информацию</string>
+
+    <string name="bookmarks_title">Сохранено</string>
+    <string name="bookmarks_text">Сохраняйте жилье которое нравится, нажав на сердечко.</string>
+    <string name="future_function">Будущая функция!</string>
+
+    <string name="house_checking_in_process">Дом в очереди на проверке администрацией</string>
+    <string name="your_leases">Ваши объявления</string>
+    <string name="progress_add_to_ethereum">Подождите, пока будет одобрена транзакций в Блокчейн</string>
+
+    <string name="lets_ready_for_guests">Расскажите о жилье</string>
+    <string name="houseTypeInformation">Тип жилья</string>
+    <string name="houseAddress">Адрес жилья</string>
+    <string name="houseMap">Расположение на карте</string>
+    <string name="houseInformation">Информация о сдаче</string>
+
+    <string name="next">Далее</string>
+    <string name="back">Назад</string>
+    <string name="done">Сдать</string>
+
+    <string name="what_kind_of_house_your_lease">Какой тип жилья вы сдаете?</string>
+    <string name="enter_lease_address">Введите адрес дома</string>
+    <string name="street">Улица и номер дома</string>
+    <string name="number_of_lease">Номер квартиры</string>
+
+
+    <string name="flate">Квартира</string>
+    <string name="house">Дом</string>
+    <string name="lodging_at_home_apartment">Жилье при доме/квартире</string>
+    <string name="unique_lodging">Уникальное жилье</string>
+    <string name="b_and_b">B\u0026B</string>
+    <string name="hotel">Бутик-отель или подобное жилье</string>
+
+    <string name="select_house_type">Выберите тип жилья</string>
+
+    <string name="available_lodgings">Доступное жилье</string>
+
+    <string name="send_request">Отправить запрос</string>
+    <string name="hosted_by_user">Сдается пользователем</string>
+
+    <string name="people_count">Количество мест:</string>
+
+    <string name="share">Распространить</string>
+    <string name="add_to_favorite">Добавить в избранное</string>
+
+
+    <string name="order_detail">Бронирование</string>
+    <string name="trip_detail">Детали поездки</string>
+    <string name="terms_of_use">Условия использования</string>
+    <string name="message_for_host">Соощение хозяину</string>
+    <string name="paymant">Просмотреть и оплатить</string>
+
+    <string name="see_trip_detail">Посмотрите детали поездки</string>
+    <string name="see_house_rules">Вот несколько рекомендаций</string>
+    <string name="tell_host_about_trip">Расскажите хозяину о своей поездке</string>
+    <string name="see_and_pay">Посмотреть и оплатить</string>
+
+    <string name="guests">Количество гостей</string>
+    <string name="not_selected">Не выбрано</string>
+
+    <string name="count_of_people">Сколько гостей?</string>
+    <string name="select_dates">Выберите даты поездки</string>
+    <string name="adult_count">Взрослые</string>
+    <string name="ready">Готово</string>
+    <string name="please_select_dates">Пожалуйста, выберите даты</string>
+
+    <string name="contract_recommendation">• Каждое жилье уникально, поэтому удобства и пространство в объявлениях разные;
+    \n• Относитесь к жилью уважительно - возможно, это чей-то дом!
+    \n•Будьте на связи с хозяином до приезда и после него; </string>
+
+    <string name="rules_of_services">Правила пользования сервиса:</string>
+    <string name="service_rules">• После подтверждения контракта хозяином, отмена контракта возможно только при обращении в службу поддержки;
+            \n• Хозяин жилья может отклонить Ваш запрос на заселение;
+            \n• В случае возникновения недоразумений в разрешении спора вмешивается служба поддержки;
+        </string>
+
+    <string name="confirm">Согласен</string>
+    <string name="msg_for_householder">Напишите сообщение хозяину жилище здесь</string>
+    <string name="contract_starts">Данные отправлены, транзакция в Блокчейн может заняться определенное время.
+        \nКонтракт будет доступен в другом окне.</string>
+
+
+    <!--User info-->
+    <string name="user_info">Персональная информация</string>
+    <string name="options">Опции</string>
+    <string name="do_you_want_log_out">Хотите ли выйти из логина?</string>
+    <string name="no">Нет</string>
+    <string name="yes">Да</string>
+
+    <string name="phone">Телефон</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="bio">О себе</string>
+    <string name="email">E-mail</string>
+    <string name="birthday">День рождения</string>
+    <string name="viewUserWallet">Адрес кошелька</string>
+    <string name="ask_question">Задать вопрос</string>
+    <string name="log_out">Выход</string>
+
+    <string name="problem_with_login">Возникли проблемы при авторизации\nПопробуйте ещё раз</string>
+    <string name="fill_fields">Заполните поля</string>
+    <string name="enter_email">Введите Ваш e-mail и пароль</string>
+    <string name="create_an_account">Создать аккаунт</string>
+    <string name="auth">Авторизоваться</string>
+    <string name="password">Пароль</string>
+
+    <string name="data_refreshed">Данные обновлены</string>
+    <string name="face_with_problem_try_again">Возникла проблема, попробуйте ещё раз!</string>
+
+
+    <string name="your_trips">Ваши поездки:</string>
+    <string name="your_offerings">Ваши предложения:</string>
+
+
+    <string name="days">дней</string>
+
+
+    <!--Trips status-->
+    <string name="status_1">Предложение на заселение</string>
+    <string name="status_2">Сделка в процессе</string>
+    <string name="status_3">Сделка закрыта</string>
+    <string name="status_5">Хозяин жилья отказал в заселении</string>
+    <string name="status_6">Сложная ситуация - администрация решит вопрос!</string>
+    <string name="status_7">Хозяин квартиры отказал</string>
+    <string name="status_8">Клиент отказался от сделки</string>
+
+    <string name="reject_to_booking">Отказаться в заселении</string>
+    <string name="reject_contract">Отказать в заселении</string>
+    <string name="confirm_contract">Подтвердить заселение</string>
+
+
+    <string name="your_offering">Ваше предложение</string>
+    <string name="your_trip">Ваша поездка</string>
+
+    <string name="open_chat">Чат</string>
+
+
+    <string name="information">Информация</string>
+    <string name="load_photo">Загрузить фото</string>
+    <string name="create_user">Создать пользователя</string>
+    <string name="registration">Регистрация</string>
+
+    <string name="birth_day">День рождения (Формат 27.06.1996)</string>
+    <string name="fill_the_fields">Заполните следуйщие поля</string>
+
+    <string name="create_a_wallet">Создайте кошелек</string>
+
+    <string name="create_wallet_title">Внимание!</string>
+    <string name="create_wallet_text">Использование криптовалют требует определенного уровня грамотности.
+ \nСохраните свой приватный ключ и не передавайте его третьем лицам.
+ \nВсе транзакции с Вашими средствами будут подписаны этим приватным ключом.
+ \nВ случае утери приватного ключа, все средства теряются.</string>
+
+    <string name="create_wallet_instruction">Пожалуйста создайте кошелек.
+        \n1. Выберите в качестве сети в правом верхнем углу сеть - Ropsten (infura.io)
+        \n2. Введите пароль для защиты приватного ключа
+        \n3. </string>
+
+    <string name="enter_your_public_key">Введите Ваш публичный ключ</string>
+    <string name="enter_your_private_key">Введите Ваш приватный ключ</string>
+    <string name="create_new_wallet">Создать новый кошелек</string>
+
+    <string name="public_key">Публичный ключ</string>
+    <string name="private_key">Приватный ключ</string>
+    <string name="your_wallet_info">Информация о Вашем кошельке</string>
+    <string name="wallet_updated">Кошелек обновлен</string>
+    <string name="update_wallet_info">Обновить информацию о кошельке</string>
+    <string name="error_input">Введены пустые значения</string>
+    <string name="wallet_belong_other_login">Кошелек принадлежит другому аккаунту</string>
+    <string name="please_login">Пожалуйста авторизуйтесь</string>
+
+    <string name="lodging_for_rent">Жилья для аренды</string>
+    <string name="selected_region">Выбранный город:</string>
+    <string name="moscow">Москва</string>
+    <string name="only_moscow_now">На данный момент доступна только Москва</string>
+
+    <string name="lodging_is_renting">Жилье не доступно</string>
+    <string name="lodging_is_available">Жилье доступно</string>
+
+    <string name="your_money">Ваши средства:</string>
+    <string name="currency_exchange">Обмен валют:</string>
+    <string name="price">Цена</string>
+
+    <string name="cancel_trip">Отказаться от заселения</string>
+    <string name="cancel_to_trip">Отказать в заселении</string>
+
+    <string name="canceling_of_contract">Отмена контракта</string>
+    <string name="loading_in_progress">Загрузка в процессе</string>
+
+    <string name="enter_your_private_key_in_settings">Введите Ваш приватный ключ в настройках</string>
+
+    <string name="loading_photo">Загрузить фото</string>
+    <string name="registar_lodging">Зарегистрировать жилье</string>
+
+    <string name="problem_with_contract">Проблема с контрактом?</string>
+    <string name="contract_canceled">Контракт отменен</string>
+    <string name="contract_over_money_transfered">Сделка завершена, средства перечислены</string>
+    <string name="problem_with_sending_money">Проблемы с перечислением средств</string>
+    <string name="problem_with_canceling">Проблемы с отменой контракта</string>
+    <string name="accept_contract">Подтвердить заселение</string>
+    <string name="problem_with_accepting_deal">Проблема с принятием заказа</string>
+    <string name="over_deal">Завершить контракт</string>
+
+    <string name="publish_house">Опубликовать жилье</string>
+    <string name="problem_with_creating_lodging">Проблемы с созданием жилья</string>
+    <string name="main_img">Главная картинка</string>
+    <string name="add_img">Добавить картинку</string>
+    <string name="lodging_available_on_selected_date">Жилье доступно на выбранные даты</string>
+
+
+    <string name="private_key_is_null">Приватный ключ пустой или не соответствует нужной длине</string>
+    <string name="public_key_is_null">Публичный ключ пустой</string>
+    <string name="check_your_private_and_public_key">Проверьте публичный и приватный ключ</string>
+</resources>

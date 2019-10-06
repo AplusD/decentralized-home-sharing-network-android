@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/default_margin"
+            android:textSize="@dimen/middleText"
+            android:id="@+id/tvOptionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:alpha="0.5"
+            android:background="?selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/tvCount"
+            android:id="@+id/ivMinus"
+            android:layout_width="@dimen/img_icon_width"
+            android:layout_height="@dimen/img_icon_height"
+            app:srcCompat="@drawable/icon_minus" />
+
+
+        <TextView
+            android:layout_marginStart="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:id="@+id/tvCount"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/bigText"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/ivPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:alpha="0.5"
+            android:background="?selectableItemBackground"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/ivPlus"
+            android:layout_width="@dimen/img_icon_width"
+            android:layout_height="@dimen/img_icon_height"
+            app:srcCompat="@drawable/icon_plus" />
+
+    </RelativeLayout>
+
+    <View
+        android:alpha="0.2"
+        android:background="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

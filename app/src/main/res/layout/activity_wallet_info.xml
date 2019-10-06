@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/little_margin"
+        android:id="@+id/edPublicKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:hint="@string/public_key"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorAccent"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_below="@+id/edPublicKey"
+        android:id="@+id/edPrivateKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:hint="@string/private_key"
+        android:inputType="text"
+        android:textSize="12sp"
+        android:lines="5"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorAccent"
+        app:met_singleLineEllipsis="true" />
+
+    <LinearLayout
+        android:layout_margin="@dimen/default_margin"
+        android:id="@+id/yourMoney"
+        android:orientation="vertical"
+        android:layout_below="@+id/edPrivateKey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/your_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/middleText"
+            android:id="@+id/tvWei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/middleText"
+            android:id="@+id/tvEther"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/middleText"
+            android:id="@+id/tvDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCurrencyExchangeLabel"
+        android:layout_below="@+id/yourMoney"
+        android:textSize="20dp"
+        android:layout_marginStart="@dimen/default_margin"
+        android:textColor="@color/colorBlack"
+        android:text="@string/currency_exchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/middleText"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_below="@+id/tvCurrencyExchangeLabel"
+        android:id="@+id/tvCurrencyExchange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorAccent"
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:text="@string/update_wallet_info" />
+
+
+</RelativeLayout>

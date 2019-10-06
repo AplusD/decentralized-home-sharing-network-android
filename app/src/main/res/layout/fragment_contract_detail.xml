@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/see_trip_detail"
+        android:textSize="@dimen/bigText" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/item_option" />
+
+        <include
+            android:id="@+id/guestsCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/item_option" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/bottomSheetContractDetail"
+        layout="@layout/bottom_sheet"/>
+
+</android.support.design.widget.CoordinatorLayout>

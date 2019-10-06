@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'io.fabric'
+
+//key0 password 123456789
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.aplusd.houserenter"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 4
+        versionName "1.1"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    kapt { generateStubs = true }
+
+    dataBinding { enabled = true }
+
+    lintOptions {
+
+        checkReleaseBuilds false
+
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:27.1.0'
+
+    implementation 'com.android.support:cardview-v7:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+
+    // ViewModelLodgingInformation and LiveData
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+
+
+    implementation 'com.google.dagger:dagger-android-support:2.14.1'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.14.1'
+
+
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    implementation 'com.stepstone.stepper:material-stepper:4.3.1'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+
+    implementation 'com.github.onlynight:LSearchView:1.0.0'
+
+    implementation 'com.github.prolificinteractive:material-calendarview:1.5.0'
+
+    implementation 'com.github.timigod:android-chat-ui:v0.1.3'
+
+    implementation 'com.dropbox.core:dropbox-core-sdk:3.0.7'
+
+    implementation 'com.google.firebase:firebase-crash:16.2.1'
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+
+    // Check for v11.4.2 or higher
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+
+    // Add dependency
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.5'
+
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
+        transitive = true;
+    }
+
+    androidTestCompile 'junit:junit:4.12'
+}
+
+apply plugin: 'com.google.gms.google-services'

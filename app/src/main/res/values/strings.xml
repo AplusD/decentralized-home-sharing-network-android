@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name" translatable="false">House renter</string>
+    <string name="trips">Trips</string>
+    <string name="listings">Listings</string>
+    <string name="profile">Profile</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="inbox">Inbox</string>
+
+    <string name="hint_try_city" formatted="true">Try "Moscow"</string>
+    <string name="money_sign">$</string>
+    <string name="perday">per day</string>
+    <string name="money_per_day">%d$ per day</string>
+    <string name="point">•</string>
+
+    <string name="houseInfo" formatted="false">%d bed</string>
+    <string name="date">Dates</string>
+    <string name="filters">Filters</string>
+
+    <string name="add_your_lease">Add lodging</string>
+
+    <string name="house_name">House name</string>
+    <string name="house_address">Address</string>
+    <string name="orderType">House type(Room, Flat, House)</string>
+    <string name="guestCount">Guest count</string>
+    <string name="pricePerDay">Price per day ($)</string>
+    <string name="countryCode">Country code</string>
+    <string name="country">Country</string>
+
+    <string name="add_information_about_house">Add information</string>
+
+    <string name="bookmarks_title">Bookmarks</string>
+    <string name="bookmarks_text">Add an lodging to favorite!</string>
+    <string name="future_function">Future function!</string>
+
+    <string name="your_leases">Your lodgings</string>
+
+    <string name="house_checking_in_process">House checking in process</string>
+    <string name="progress_add_to_ethereum">Progress add to ethereum</string>
+
+    <string name="lets_ready_for_guests">Let\'s ready for guests visits</string>
+    <string name="houseTypeInformation">Lodging type</string>
+    <string name="houseAddress">Lodging address</string>
+    <string name="houseMap">Location on the map</string>
+    <string name="houseInformation">Information on delivery</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+
+    <string name="what_kind_of_house_your_lease">What kind of house your lodging?</string>
+    <string name="enter_lease_address">Enter lodging address</string>
+    <string name="street">Street</string>
+    <string name="number_of_lease">Number of lodging</string>
+
+
+    <string name="flate">Flate</string>
+    <string name="house">House</string>
+    <string name="lodging_at_home_apartment">House</string>
+    <string name="unique_lodging">Unique lodging</string>
+    <string name="b_and_b" >B\u0026B</string>
+    <string name="hotel">Hotel</string>
+
+    <string name="select_house_type">Select house type</string>
+    <string name="available_lodgings">Available lodgings</string>
+
+    <string name="send_request">Send request</string>
+    <string name="hosted_by_user">Host</string>
+    <string name="check_availability">Проверить доступность</string>
+
+    <string name="people_count">People count:</string>
+    <string name="share">Share</string>
+    <string name="add_to_favorite">Add to favorite</string>
+
+
+    <string name="open_chat">Chat</string>
+
+    <string name="order_detail">Booking</string>
+    <string name="trip_detail">Trip detail</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="message_for_host">Message for host</string>
+    <string name="paymant">Paymant</string>
+
+    <string name="see_trip_detail">Contract detail</string>
+    <string name="see_house_rules">Here are some recommendations</string>
+    <string name="tell_host_about_trip">Tell the host about your trip</string>
+    <string name="see_and_pay">View and pay</string>
+
+    <string name="guests">Guest count</string>
+    <string name="not_selected">Not selected</string>
+
+    <string name="count_of_people">How many guests?</string>
+    <string name="select_dates">Rental period</string>
+    <string name="adult_count">Matures</string>
+    <string name="ready">Ready</string>
+    <string name="please_select_dates">Please select your dates</string>
+
+    <string name="contract_recommendation">• Each accommodation is unique, so the convenience and space in the ads are different;
+    \n• Think of the housing respectfully - perhaps this is someone\'s house;
+    \n• Stay in touch with the host before and after your arrival.</string>
+
+    <string name="rules_of_services">Terms of use of the service:</string>
+    <string name="service_rules">
+            • After confirmation of the contract by the owner, cancellation of the contract is possible only when contacting support;
+            \n• The landlord may decline your request to check in;
+            \n• In case of any misunderstanding in the resolution of the dispute, the support service intervenes;
+        </string>
+
+    <string name="confirm">Confirm</string>
+    <string name="msg_for_householder">Write a message to the host housing here</string>
+    <string name="contract_starts">The data is sent, the transaction in the Blockchain can take a certain time.
+        The contract will be available in another window.</string>
+
+
+    <!--User info-->
+    <string name="user_info">Personal information</string>
+    <string name="options">Option</string>
+    <string name="do_you_want_log_out">Do you want to log out?</string>
+    <string name="no">Not</string>
+    <string name="yes">Yes</string>
+
+    <string name="phone">Phone-number</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="bio">BIO</string>
+    <string name="email">E-mail</string>
+    <string name="birthday">Birth date</string>
+    <string name="viewUserWallet">Wallet</string>
+    <string name="ask_question">Ask a question</string>
+    <string name="log_out">Log out</string>
+
+    <string name="problem_with_login">Having problems with authorization\Try at once</string>
+    <string name="fill_fields">Fill in the fields</string>
+    <string name="enter_email">Enter your e-mail and password</string>
+    <string name="create_an_account">Create account</string>
+    <string name="auth">Log in</string>
+    <string name="password">Password</string>
+
+
+    <string name="data_refreshed">Date updated</string>
+    <string name="face_with_problem_try_again">There was a problem, try again!</string>
+
+
+    <string name="your_trips">Your contracts:</string>
+    <string name="your_offerings">Your offerings:</string>
+
+
+    <string name="days">days</string>
+
+
+    <!--Trips status-->
+    <string name="status_1">New offering</string>
+    <string name="status_2">Lodging booked</string>
+    <string name="status_3">Deal closed</string>
+    <string name="status_5">The owner of the house refused to move</string>
+    <string name="status_6">Difficult situation - the property will solve the issue!</string>
+    <string name="status_7">The owner of the apartment refused</string>
+    <string name="status_8">The client refused the deal</string>
+
+    <string name="reject_to_booking">Refuse to move in</string>
+    <string name="reject_contract">Refuse booking</string>
+    <string name="confirm_contract">Confirm booking</string>
+
+
+    <string name="your_offering">Your offering</string>
+    <string name="your_trip">Your trip</string>
+
+
+    <string name="information">User information</string>
+    <string name="load_photo">Load photo</string>
+    <string name="create_user">Create user</string>
+    <string name="registration">Registration</string>
+
+    <string name="birth_day">Birth day (Format 27.06.1996)</string>
+    <string name="fill_the_fields">Fill the following fields</string>
+
+    <string name="create_a_wallet">Create a wallet</string>
+
+    <string name="create_wallet_title">Warning!</string>
+    <string name="create_wallet_text">Использование криптовалют требует определенного уровня грамотности.
+ \nСохраните свой приватный ключ и не передавайте его третьем лицам.
+ \nВсе транзакции с Вашими средствами будут подписаны этим приватным ключом.
+ \nВ случае утери приватного ключа, все средства теряются.
+    </string>
+
+
+    <string name="enter_your_public_key">Enter your public key</string>
+    <string name="enter_your_private_key">Enter your private key</string>
+    <string name="create_new_wallet">Create new wallet</string>
+
+    <string name="public_key">Public key</string>
+    <string name="private_key">Private key</string>
+    <string name="your_wallet_info">Your wallet info</string>
+    <string name="wallet_updated">Wallet updated</string>
+    <string name="update_wallet_info">Update wallet info</string>
+    <string name="error_input">Empty input of private or public key</string>
+    <string name="wallet_belong_other_login">Wallet belong to other account</string>
+    <string name="please_login">Please login</string>
+
+    <string name="lodging_for_rent">Lodging for rent</string>
+    <string name="selected_region">City:</string>
+    <string name="moscow">Moscow</string>
+    <string name="only_moscow_now">Right now available only Moscow</string>
+
+    <string name="lodging_is_renting">Lodging not available</string>
+    <string name="lodging_is_available">Lodging available</string>
+
+    <string name="your_money">Your money:</string>
+    <string name="currency_exchange">Currency exchange:</string>
+    <string name="price">Price</string>
+
+    <string name="cancel_trip">Cancel contract</string>
+    <string name="cancel_to_trip">Cancel contract</string>
+
+    <string name="canceling_of_contract">Canceling of contract</string>
+    <string name="loading_in_progress">Loading in process</string>
+    <string name="enter_your_private_key_in_settings">Enter your private key in settings</string>
+
+    <string name="loading_photo">Load photo</string>
+    <string name="registar_lodging">Publish lodging</string>
+
+    <string name="problem_with_contract">Is any problem with contract?</string>
+    <string name="contract_canceled">Contract canceled</string>
+    <string name="contract_over_money_transfered">The contract is completed, the funds are transferred</string>
+    <string name="problem_with_sending_money">Problems with money transfer</string>
+    <string name="problem_with_canceling">Problems with the cancellation of the contract</string>
+    <string name="accept_contract">Confirm check in</string>
+    <string name="problem_with_accepting_deal">The problem with the acceptance of the order</string>
+    <string name="over_deal">Complete the contract</string>
+
+    <string name="publish_house">Publish lodging</string>
+    <string name="problem_with_creating_lodging">Problems with the publication of the lodging</string>
+    <string name="main_img">Main image</string>
+    <string name="add_img">Add an image</string>
+    <string name="lodging_available_on_selected_date">Accommodation is available for the selected dates</string>
+
+
+    <string name="private_key_is_null">Private key is empty</string>
+    <string name="public_key_is_null">Public key is empty</string>
+    <string name="check_your_private_and_public_key">Check your private and public key</string>
+</resources>

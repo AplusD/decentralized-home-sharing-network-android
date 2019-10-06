@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/imageHeight">
+
+
+        <ImageView
+            android:src="@drawable/noimage"
+            android:id="@+id/ivMain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imageHeight" />
+
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/tvMainHouseInfo"
+            android:textSize="@dimen/littleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/bigText"
+            android:id="@+id/tvHouseName"
+            android:layout_below="@+id/tvMainHouseInfo"
+            android:layout_alignParentStart="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_below="@+id/tvHouseName"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tvPrice"
+            android:textSize="@dimen/middleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RatingBar
+            android:visibility="invisible"
+            android:layout_below="@+id/tvPrice"
+            android:layout_alignParentStart="true"
+            android:max="5"
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="5" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/ivFavorite"
+            android:src="@drawable/icon_bookmark"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

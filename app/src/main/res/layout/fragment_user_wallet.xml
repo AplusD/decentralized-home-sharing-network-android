@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/little_margin"
+        android:id="@+id/edPublicKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:hint="@string/enter_your_public_key"
+        android:inputType="text"
+        android:textSize="24sp"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorAccent"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_below="@+id/edPublicKey"
+        android:id="@+id/edPrivateKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:hint="@string/enter_your_private_key"
+        android:inputType="text"
+        android:textSize="18sp"
+        android:lines="5"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/colorAccent"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorAccent"
+        app:met_singleLineEllipsis="true" />
+
+
+    <TextView
+        android:visibility="gone"
+        android:textColor="@color/colorRed"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/edPrivateKey"
+        android:layout_margin="@dimen/default_margin"
+        android:id="@+id/tvWalletBelongAccount"
+        android:textAlignment="center"
+        android:text="@string/wallet_belong_other_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tvCreateWallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWalletBelongAccount"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/default_margin"
+        android:text="@string/create_new_wallet"
+        android:textAlignment="center"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

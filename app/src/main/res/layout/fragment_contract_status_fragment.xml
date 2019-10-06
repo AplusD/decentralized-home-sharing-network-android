@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/contractInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:orientation="vertical">
+
+
+        <include
+            android:id="@+id/viewPrice"
+            layout="@layout/item_option" />
+
+        <include
+            android:id="@+id/viewDates"
+            layout="@layout/item_option" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/additionalInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/viewAddress"
+            layout="@layout/item_option" />
+
+        <include
+            android:id="@+id/viewContactPhone"
+            layout="@layout/item_option" />
+
+        <include
+            android:id="@+id/viewEmail"
+            layout="@layout/item_option" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:visibility="gone"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_img_height" />
+
+
+    <TextView
+        android:layout_margin="@dimen/default_margin"
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="@dimen/bigText"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btConfirm"
+        android:background="@color/colorRed"
+        android:textColor="@color/colorBackGround"
+        android:textSize="@dimen/littleText"
+        android:layout_margin="@dimen/default_margin"
+        android:padding="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btCancel"
+        android:background="@color/colorRed"
+        android:textColor="@color/colorBackGround"
+        android:textSize="@dimen/littleText"
+        android:layout_margin="@dimen/default_margin"
+        android:padding="4dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="@string/problem_with_contract"
+        android:layout_margin="@dimen/default_margin"
+        android:id="@+id/tvProblem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+</LinearLayout>

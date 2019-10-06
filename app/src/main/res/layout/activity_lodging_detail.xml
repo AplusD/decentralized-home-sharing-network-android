@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.daimajia.slider.library.SliderLayout
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/default_img_height"/>
+
+                <LinearLayout
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/little_margin"
+                        android:id="@+id/tvHouseType"
+                        android:textSize="@dimen/middleText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="@dimen/default_margin"
+                        android:id="@+id/tvLocation"
+                        android:textSize="@dimen/middleText"
+                        android:textColor="@color/colorBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginTop="@dimen/default_margin"
+                        android:id="@+id/tvPeopleCount"
+                        android:textSize="@dimen/littleText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:layout_marginTop="@dimen/little_margin"
+                        android:id="@+id/tvDescription"
+                        android:textSize="@dimen/littleText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <View
+                        android:layout_marginTop="@dimen/default_margin"
+                        android:alpha="0.1"
+                        android:background="@color/colorBlack"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+
+                    <RelativeLayout
+                        android:background="?selectableItemBackground"
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/layoutHostInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvHostLabel"
+                            android:textSize="@dimen/littleText"
+                            android:text="@string/hosted_by_user"
+                            android:layout_alignParentStart="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:textColor="@color/colorBlack"
+                            android:id="@+id/tvHostName"
+                            android:textSize="@dimen/middleText"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/tvHostLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/cardViewPhoto"
+                            android:layout_margin="@dimen/default_margin"
+                            android:layout_width="@dimen/img_width_host_photo"
+                            android:layout_height="@dimen/img_height_host_photo"
+                            android:elevation="12dp"
+                            app:cardCornerRadius="40dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:innerRadius="0dp"
+                            android:shape="ring"
+                            android:thicknessRatio="1.9">
+
+                            <ImageView
+                                android:id="@+id/IVHost"
+                                android:layout_marginEnd="@dimen/little_margin"
+                                android:layout_width="@dimen/img_width_host_photo"
+                                android:layout_height="@dimen/img_height_host_photo"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:contentDescription="TODO">
+
+                            </ImageView>
+
+                        </android.support.v7.widget.CardView>
+
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginTop="@dimen/default_margin"
+                        android:alpha="0.1"
+                        android:background="@color/colorBlack"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"/>
+
+
+                </LinearLayout>
+
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/default_img_height"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    <include android:id="@+id/orderBottomSheet" layout="@layout/bottom_sheet"/>
+
+</android.support.design.widget.CoordinatorLayout>
+
